@@ -1,0 +1,21 @@
+{
+  "name": "async-waterfall",
+  "version": "1.0.0",
+  "description": "Async waterfall is a control flow mechanism in Node.js that allows you to execute a series of asynchronous tasks in sequence, passing the results of each task as arguments to the next one. It ensures that each task starts only after the previous one has completed successfully. This pattern is particularly useful when you have a series of dependent asynchronous operations that need to be executed in a specific order.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "async",
+    "waterfall",
+    "node.js",
+    "example"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5"
+  }
+}
